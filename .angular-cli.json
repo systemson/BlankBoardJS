@@ -19,9 +19,17 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "./assets/css/bootstrap.min.css",
+        "./assets/css/font-awesome.min.css",
+        "./assets/css/AdminLTE.min.css",
+        "./assets/css/skins/skin-blue.min.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "./assets/js/jquery.min.js",
+        "./assets/js/bootstrap.min.js",
+        "./assets/js/adminlte.min.js",
+        "./assets/js/adminlte.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
